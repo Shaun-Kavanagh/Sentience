@@ -1,3 +1,8 @@
+/*This is classes function is to access the questions and produce them to the user
+*@author Shaun Kavanagh
+*@version 1.0
+*@since 2015-06-01
+*/
 package com.example.shaun.test;
 
 import android.content.Context;
