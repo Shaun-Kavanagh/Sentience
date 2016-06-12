@@ -1,3 +1,8 @@
+/*This is the main class of the program and it is used to initialise  and call the necessary resources and classes that are used in the app
+*@author Shaun Kavanagh
+*@version 1.0
+*@since 2015-06-01
+*/
 package com.example.shaun.test;
 
 import android.content.Intent;
