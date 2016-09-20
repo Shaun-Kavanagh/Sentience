@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="@drawable/dungeonbackground"
+              tools:context=".CharacterCreation">
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal">
+
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:minHeight="60dp"
+                android:minWidth="350dp"
+                android:text=""
+                android:textSize="30sp"
+                android:id="@+id/CharacterNameCreation"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true"/>
+        <Button
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Create"
+                android:id="@+id/Create"
+                android:clickable="true"
+                android:layout_alignParentBottom="true"
+                android:layout_centerHorizontal="true"/>
+
+        <EditText
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:minWidth="70dp"
+            android:minHeight="35dp"
+            android:id="@+id/editTextStr" android:layout_below="@+id/CharacterNameCreation"
+            android:layout_alignParentLeft="true" />
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minWidth="70dp"
+                android:minHeight="35dp"
+                android:id="@+id/editTextDex"
+                android:layout_below="@+id/CharacterNameCreation" android:layout_toRightOf="@+id/editTextStr"
+                android:layout_toEndOf="@+id/editTextStr"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minWidth="70dp"
+                android:minHeight="35dp"
+                android:id="@+id/editTextConst"
+                android:layout_below="@+id/CharacterNameCreation" android:layout_toRightOf="@+id/editTextDex"
+                android:layout_toEndOf="@+id/editTextStr"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minWidth="70dp"
+                android:minHeight="35dp"
+                android:id="@+id/editTextInt"
+                android:layout_below="@+id/CharacterNameCreation" android:layout_toRightOf="@+id/editTextConst"
+                android:layout_toEndOf="@+id/editTextStr"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="number"
+                android:minWidth="70dp"
+                android:minHeight="35dp"
+                android:id="@+id/editTextWis"
+                android:layout_below="@+id/CharacterNameCreation" android:layout_toRightOf="@+id/editTextInt"
+                android:layout_toEndOf="@+id/editTextStr"/>
+        <EditText
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:inputType="text"
+                android:minWidth="330dp"
+                android:minHeight="205dp"
+                android:id="@+id/editTextEquip" android:layout_centerVertical="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+
+</LinearLayout>
