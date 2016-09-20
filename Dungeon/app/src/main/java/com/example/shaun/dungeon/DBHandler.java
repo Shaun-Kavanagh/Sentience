@@ -26,7 +26,7 @@ public class DBHandler extends SQLiteOpenHelper {
     //have two columns to test
     private static final String KEY_ID = "id";
     private static final String KEY_NAME = "name";
-
+String testCommit="";
 
     public DBHandler(Context context) {
 
